@@ -1,0 +1,26 @@
+p {
+    font-family:  "Calisto MT";
+    font-size: 18px;
+}
+
+html {
+    background-color: palegreen;
+    text-align: center;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+h2, h3 {
+    font-family: "Calibri Light";
+    font-size: 20px;
+    color: gray;
+}

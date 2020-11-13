@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--Titulo de la pagina-->
+    <title>Examen DOM</title>
+    <script type="text/javascript" src="ExamenPractico.js"></script>
+    <link rel="stylesheet" href="ExamenPractico.css">
+</head>
+<body>
+    <h1><i>Usando DOM y Formularios</i></h1>
+
+    <p><strong><u>-- Personajes favoritos --</u></strong></p>
+    <!--Creacion del formulario-->
+    <form>
+        <h2><i>Favor de ingresar el nombre del personaje favorito que deseas ingresar:</i></h2>
+        <!--Input donde se ingresará el nombre del nuevo personaje-->
+        <input type="text" id="NuevoPersonajes" placeholder="Personaje nuevo">
+        <br>
+        <br>
+        <button type="button" onclick="nuevoPersonaje()">Nuevo</button>
+        <!--Dar formato de lista con ol-->
+        <ol>
+            <!-- Aquí se mostrara el personaje nuevo-->
+            <p id="PersonajesNuevo"></p>
+        </ol>
+    </form>
+
+    <p><strong><u>-- Películas favoritas --</u></strong></p>
+
+    <form>
+        <h3><i>Favor de ingresar el numero de la pelicula que desees eliminar:</i></h3>
+        <!--Input donde se ingresara el ID de la pelicula que desee borrar el usuario-->
+        <input type="text" id="BorrarPelicula" placeholder="ID">
+        <br>
+        <br>
+        <!--Button para llamar a la función borrarPelicula-->
+        <button id="button" type="button" onclick="borrarPelicula()">Borrar</button>
+    </form>
+
+    <!-- Lista de personajes dada por el profesor -->
+    <ol id="listPersonajes">
+        <li>Shrek</li>
+        <li>Un mundo feliz</li>
+        <li>La vida inútil de Pito Pérez</li>
+        <li>El club de la pelea</li>
+    </ol>
+</body>
+</html>
+
